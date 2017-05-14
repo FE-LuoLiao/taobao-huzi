@@ -1,0 +1,135 @@
+ul,
+li {
+    margin: 0;
+    list-style-type: none;
+}
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+/*整个导航栏*/
+.navigation-all {
+    width: 100%;
+    background-color: #f5f5f5;
+}
+
+.navigation-bar {
+    /*要实现margin：0 auto 的功能必须要有固定的宽度.....傻逼了吧！*/
+    width: 960px;
+    height: 35px;
+    margin: 0 auto;
+    font-size: 12px;
+    font-family: sans-serif;
+    line-height: 35px;
+}
+
+.envelope-color {
+    color: #ff3e00;
+}
+
+.navigation-bar-left li {
+    float: left;
+}
+
+.navigation-bar-left a {
+    display: block;
+    text-decoration: none;
+    padding: 0 10px;
+    color: #6c6c6c;
+}
+
+.navigation-bar-right li {
+    float: right;
+}
+
+.navigation-bar-right a {
+    display: block;
+    text-decoration: none;
+    padding: 0 15px;
+    color: #6c6c6c;
+}
+
+.content-column {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.search-column {
+    width: 960px;
+    margin: 0 auto;
+    height: 35px;
+    padding: 20px 0 40px;
+}
+
+.sprites-images {
+    background-image: url(../images/icons-s2205f6ae3b.png);
+    /*background-position:top left;负数方向为左/上 ，同理正数方向为右/下*/
+    background-position: 50px 0;
+     /*width: 50px;*/
+    height: 35px;
+    border: 0px;
+    float: left;
+}
+
+.search-input {
+    width: 400px;
+    height: 35px;
+    border: 3px solid #ff3e00;
+    padding-left: 8px;
+    float: right;
+}
+
+.click-button {
+    height: 35px;
+    width: 80px;
+    color: #fff;
+    border:0;
+    background-color: #ff3e00;
+    padding: 0;
+    float: right;
+}
+.commodity-column{
+    width: 960px;
+    margin: 0 auto;
+}
+.commodity-switch-column{
+    position: relative;
+}
+.commodity-switch-column-left{
+    display: block;
+}
+.commodity-switch-column-left li{
+    text-decoration-color: #ff3e00;
+    float: left;
+    font-size:16px;
+    border-bottom:2px solid #ff3e00;
+    font-weight:700;
+    height: 18px;
+    padding:0 0 15px;
+
+}
+.commodity-switch-column-left a{
+
+
+}
+.commodity-switch-column-right{
+    position: absolute;
+    top:0;
+    right:0;
+    height:25px;
+}
+.commodity-switch-column-right strong{
+    color: #ff3e00;
+}
+.commodity-switch-column-right button{
+    width: 55px;
+    height: 25px;
+    border-radius: 2px;
+    background-color: #aaa;
+    color: #fff;
+    text-align: center;
+    font-size: 12px;
+    border: 0px;
+}
