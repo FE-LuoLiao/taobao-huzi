@@ -278,40 +278,228 @@ body {
     width: 190px;
     padding-left: 15px;
 }
+.commodity-text-display{
+    float: left;
+    color: #3c3c3c;
+    text-decoration: none;
+}
+.commodity-text-display:hover{
+    color: #ff3e00;
+    text-decoration:solid;
+}
+.bankCard-text-display{
+    padding-top: 15px;
+    float: left;
+}
 .color-display{
     padding-left: 30px;
     padding-right: 40px;
 }
 .color-display p{
+    color:#9c9c9c;
     margin:0;
 }
 .money-display{
-    padding-right: 30px;
-    padding-left: 27px;
+    padding-right: 20px;
+    padding-left: 15px;
 }
 .money-display p{
     margin:0;
 }
+.no-discount{
+
+    font-size: 12px;
+    text-decoration: line-through;
+    color: #9c9c9c;
+
+}
+.have-discount{
+    font-size: 12px;
+    font-weight: bold;
+    color: #000;
+}
 .commodity-number{
     /*border: 1px;*/
-    width: 45px;
+    width: 39px;
     height: 27px;
+    border:1px solid #aaa;
+    border-radius: 2px;
     padding:4px 1px;
 }
+.seller-promotion{
+    position: relative;
+    width: 70px;
+    height: 20px;
+    border-radius: 3px;
+    border:1px solid #ff3e00;
+    background-color: #FFF0E7;
+    padding-top: 3px;
+    padding-left: 3px;
+    color: #ff3e00;
+    margin:0;
+
+
+}
+.seller-promotion p{
+    padding-top: 3px;
+    padding-left: 3px;
+    color: #ff3e00;
+    width: 55px;
+    height:15px;
+    margin:0;
+    overflow: hidden;
+
+}
+.triangle-down{
+    position: absolute;
+    top:10px;
+    right: 5px;
+    display: inline-block;
+    line-height: 23px;
+    width:0;
+    height:0;
+    float: right;
+    border-width:4px 4px 0px 4px;
+    border-color: #ff3e00 transparent;
+    border-style:solid;
+}
+.triangle-down:hover{
+    position: absolute;
+    top:10px;
+    right: 5px;
+    display: inline-block;
+    line-height: 23px;
+    width:0;
+    height:0;
+    float: right;
+    border-width:0px 4px 4px 4px;
+    border-color: #ff3e00 transparent;
+    border-style:solid;
+}
+
 .number-display{
-    padding-left: 15px;
+    padding-left: 0;
 }
-.number-display a{
-    text-decoration: none;
-}
+/*.number-display a{*/
+    /**/
+
+/*}*/
 .num-display{
     padding-left: 45px;
     padding-right: 10px;
+    color: #ff3e00;
+    font-weight: bold;
+    font-size: 16px;
 }
 
+.number-down{
+    display: block;
+    border: 1px solid #e5e5e5;
+    font-size: 14px;
+    height: 25px;
+    width: 17px;
+    text-align: center;
+    float: left;
+    line-height: 25px;
+    background-color: #f0f0f0;
+    text-decoration: none;
+}
+.number-add{
+    display: block;
+    border: 1px solid #e5e5e5;
+    font-size: 14px;
+    height: 25px;
+    width: 17px;
+    line-height: 25px;
+    text-align: center;
+    float: right;
+    background-color: #f0f0f0;
+    text-decoration: none;
+}
 .del-display{
-    padding-left: 50px;
+    padding-left: 40px;
 }
 .del-display p{
     margin:0;
+}
+.del-display p a{
+    text-decoration: none;
+    color: #3c3c3c;
+}
+.del-display p a:hover{
+    color: #ff3e00;
+}
+.commodity-finally-balance{
+    width:960px;
+    height: 50px;
+    /*margin:0 auto;*/
+    background-color: #e5e5e5;
+    position: fixed;
+    left: 196px;
+    bottom:0;
+
+}
+.commodity-finally-balance ul{
+    padding-left: 15px;
+}
+
+.commodity-finally-balance ul li{
+    padding-top: 20px;
+    padding-right: 25px;
+    float: left;
+    color: #9c9c9c;
+    font-size: 12px;
+}
+.commodity-finally-balance ul li a{
+    text-decoration: none;
+    color: #3c3c3c;
+}
+.input-display-finally{
+    float: left;
+    padding-top: 18px;
+    padding-left: 15px;
+}
+.commodity-finally-right{
+    float: right;
+}
+.choosed-commodity-number{
+    padding-right: 20px;
+    line-height: 50px;
+    height: 50px;
+    float: left;
+}
+.choosed-commodity-number span{
+    font-size: 12px;
+    color: #3c3c3c;
+}
+.choosed-commodity-number em{
+    color: #ff3e00;
+}
+.all-commodity-price{
+    padding-right: 20px;
+    line-height: 50px;
+    height:50px;
+    font-size: 12px;
+    float: left;
+
+}
+.all-commodity-price-color{
+    color: #ff3e00;
+}
+.commodity-settle-account{
+    width: 120px;
+    height: 50px;
+    border:1px  solid #ccc;
+    border-right: 0;
+    float: left;
+    border-radius: 2px;
+    background-color: #aaa;
+}
+.commodity-settle-account a{
+    color: #ffffff;
+    font-size: 30px;
+    text-decoration: none;
+    font-family: "Lantinghei SC","Microsoft Yahei";
+    padding-left: 30px;
+    line-height: 50px;
 }
